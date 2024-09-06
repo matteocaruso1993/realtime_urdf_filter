@@ -51,7 +51,7 @@ RealtimeURDFFilter::RealtimeURDFFilter (ros::NodeHandle &nh, int argc, char **ar
   , camera_tx_(0)
   , camera_ty_(0)
   , far_plane_ (8)
-  , near_plane_ (0.1)
+  , near_plane_ (0.01)
   , argc_ (argc), argv_(argv)
 {
   // get fixed frame name
